@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
   },
   "repository": {
     "url": "git@github.com:guillsav/electron-tutorial.git",
@@ -12,6 +13,7 @@
   "author": "Guillaume Savy",
   "license": "MIT",
   "dependencies": {
-    "electron": "^9.0.5"
+    "electron": "^9.0.5",
+    "nodemon": "^2.0.4"
   }
 }
