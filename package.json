@@ -1,0 +1,17 @@
+{
+  "name": "imageshrink",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "url": "git@github.com:guillsav/electron-tutorial.git",
+    "type": "git"
+  },
+  "author": "Guillaume Savy",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^9.0.5"
+  }
+}
