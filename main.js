@@ -21,3 +21,17 @@ function createMainWindow() {
 }
 
 app.on("ready", createMainWindow)
+
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
+    if (!isMac) {
+      app.quit()
+    }
+  }
+})
+
+app.on("activate", () => {
+  if (BrowserWindow.getAllWindows().length === 0) {
+    createMainWindow()
+  }
+})
