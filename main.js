@@ -13,11 +13,11 @@ function createMainWindow() {
     title: "ImageShrink",
     width: 500,
     height: 600,
-    icon: `./app/assets/icons/Icon_256x256.png`,
+    icon: `${__dirname}/app/assets/icons/Icon_256x256.png`,
     resizable: isDev,
   })
 
-  mainWindow.loadFile("./app/index.html")
+  mainWindow.loadFile(`${__dirname}/app/index.html`)
 }
 
 app.on("ready", createMainWindow)
