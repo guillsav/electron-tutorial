@@ -13,7 +13,7 @@
   "author": "Guillaume Savy",
   "license": "MIT",
   "dependencies": {
-    "electron": "^9.0.5",
+    "electron": "^13.6.6",
     "nodemon": "^2.0.4"
   }
 }
